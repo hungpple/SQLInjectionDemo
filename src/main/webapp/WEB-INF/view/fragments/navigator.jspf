@@ -1,0 +1,26 @@
+<nav id="navbar">
+	<div id="navoption">
+		<a href="/">Home</a>
+		<a href="/student_list">All Students</a>
+		<a href="/add_student">Add Student</a>
+	</div>
+	<div id="useroption">
+		<% 
+		    //Remove '@' 
+		    String name = (String)session.getAttribute("username");
+		    if ((String)session.getAttribute("username") != null) 
+		    { 
+		%>
+			<a href="">User: <%out.println(name);%></a>
+			<a href="/logout">Log out</a>
+		<% } else { %>
+			<a href="/user">Log in</a>
+			<a href="/new_account">Sign up</a>
+		<%}
+		%>
+		
+	</div>
+	
+	
+</nav>
+<article>

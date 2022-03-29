@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+*{
+margin: auto; 
+overflow: auto;} 
+
+body {
+	background-color: #1a1a1a ;/* color black light */
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	min-width: 250px;}
+
+body {
+	overflow:auto;
+  	padding-bottom: 50px;
+}
+
+/*---------------------------header-------------------------------*/	
+header {
+  
+	margin: auto;
+	background-image: url("styles/images/black.jpg");
+	background-repeat: no-repeat;}
+
+header h1 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font: bold 2em "MS pgothic", serif, Times;
+	padding: 30px ;}
+
+
+
+header form { 
+		position: absolute;
+		right:0px;
+		top:12px;
+		bottom: 2px;
+		width:20%;}
+		
+	
+/*-------------------------navigation------------------------------*/	
+nav {
+	text-align: center;
+	background: #262626;   /* color black lighter */
+	font-family: "calibri light", calibri;
+	overflow: hidden;
+	position: relative;
+	}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 15px  ;
+	font-size: 17px;}
+	
+
+nav #useroption{
+  float: right;
+  
+}
+	
+nav #navoption{
+	clear:both;
+	position: absolute;
+}
+
+nav a:hover {
+	background-color: #ddd ;/* color heavy white  */
+	font-weight: bold;}  
+ 
+nav a.active {
+	background-color: #4CAF50; /* color green */
+	color: white;}
+
+/*--------------------------Section--------------------------------*/
+#article  {
+	text-decoration: underline;
+	color: white;	
+	font-family: calabri, sans-serif;
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-size: 2em;}
+	
+section * {
+	color: white;
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	margin-right: 12px;
+	font-family: calabri, sans-serif;
+	text-align: justify;}
+	
+#center {
+  margin: auto;
+  width: 65%;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+/*--table in TOPIC--*/
+table {
+	border:1px solid white;
+	overflow:hidden;
+	width: 95%;}
+
+th, td {
+	border: 1px solid white;}
+    table color	
+
+tr {
+	
+} 
+
+td, td a {
+	background-color: yellow;
+	color: black;
+}
+	
+th {
+	background-color: red;}
+
+
+form {
+	margin: 19px;}
+
+legend {
+	color: white;
+	font-size: 30px;}
+	
+label {
+	color: white;
+	font-size: 15px;}
+
+input, button {
+	color: black;}
+	
+.command {
+  background-color: rgb(169,169,169);
+  font-family: Monospace;
+}
+	
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
